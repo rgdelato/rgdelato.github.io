@@ -1,0 +1,32 @@
+{
+  "name": "gatsby-starter-default",
+  "description": "Gatsby default starter",
+  "version": "1.0.0",
+  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "dependencies": {
+    "emotion": "^9.0.2",
+    "emotion-server": "^9.0.2",
+    "gatsby": "^1.9.218",
+    "gatsby-link": "^1.6.37",
+    "gatsby-plugin-emotion": "^1.1.15",
+    "gatsby-plugin-react-helmet": "^2.0.5",
+    "gh-pages": "^1.1.0",
+    "react-emotion": "^9.0.2",
+    "react-helmet": "^5.2.0"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "MIT",
+  "main": "n/a",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"src/**/*.js\"",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gatsby build && gh-pages -d public -b master"
+  },
+  "devDependencies": {
+    "prettier": "^1.11.0"
+  }
+}
