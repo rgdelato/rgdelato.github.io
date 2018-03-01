@@ -4,12 +4,11 @@ import Helmet from "react-helmet";
 import { css } from "emotion";
 
 import Header from "../components/Header";
-import "./index.css";
 
 const TemplateWrapper = ({ children }) => (
   <div>
     <Helmet
-      title="Gatsby Default Starter"
+      title="Ryan's Radius"
       meta={[
         { name: "description", content: "Sample" },
         { name: "keywords", content: "sample, something" }

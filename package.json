@@ -2,7 +2,7 @@
   "name": "gatsby-starter-default",
   "description": "Gatsby default starter",
   "version": "1.0.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Ryan De La Torre <rgdelato@gmail.com>",
   "dependencies": {
     "emotion": "^9.0.2",
     "emotion-server": "^9.0.2",
@@ -10,11 +10,16 @@
     "gatsby-link": "^1.6.37",
     "gatsby-plugin-emotion": "^1.1.15",
     "gatsby-plugin-react-helmet": "^2.0.5",
+    "gatsby-plugin-typography": "^1.7.16",
     "gh-pages": "^1.1.0",
     "react-emotion": "^9.0.2",
-    "react-helmet": "^5.2.0"
+    "react-helmet": "^5.2.0",
+    "typography": "^0.16.6",
+    "typography-theme-stern-grove": "^0.15.10"
   },
-  "keywords": ["gatsby"],
+  "keywords": [
+    "gatsby"
+  ],
   "license": "MIT",
   "main": "n/a",
   "scripts": {
