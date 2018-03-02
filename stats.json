@@ -9,8 +9,8 @@
       "path----557518bd178906f8d58a.js.map"
     ],
     "component---src-layouts-index-js": [
-      "component---src-layouts-index-js-2b6417b429eead55f37a.js",
-      "component---src-layouts-index-js-2b6417b429eead55f37a.js.map"
+      "component---src-layouts-index-js-619d644e8489f998518a.js",
+      "component---src-layouts-index-js-619d644e8489f998518a.js.map"
     ],
     "path---page-2": [
       "path---page-2-a0e39f21c11f6a62c5ab.js",
@@ -38,7 +38,9 @@
     ],
     "app": [
       "app-54b26100d21b9fa75942.js",
-      "app-54b26100d21b9fa75942.js.map"
+      "build-js-styles.css",
+      "app-54b26100d21b9fa75942.js.map",
+      "build-js-styles.css.map"
     ],
     "path---404": [
       "path---404-a0e39f21c11f6a62c5ab.js",
