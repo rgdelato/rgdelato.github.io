@@ -26,6 +26,10 @@ const Header = () => (
           className={css`
             color: white;
             text-decoration: none;
+
+            &:hover {
+              color: white;
+            }
           `}
         >
           Ryan's Radius
