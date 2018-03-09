@@ -2,17 +2,17 @@ import React from "react";
 import Link from "gatsby-link";
 import { css } from "emotion";
 
+import MaxWidth from "./MaxWidth.js";
+
 const Header = () => (
   <div
     className={css`
-      background: rebeccapurple;
+      background: #21252b;
       margin-bottom: 1.45rem;
     `}
   >
-    <div
+    <MaxWidth
       className={css`
-        margin: 0 auto;
-        max-width: 960px;
         padding: 1.45rem 1.0875rem;
       `}
     >
@@ -28,10 +28,10 @@ const Header = () => (
             text-decoration: none;
           `}
         >
-          Gatsby
+          Ryan's Radius
         </Link>
       </h1>
-    </div>
+    </MaxWidth>
   </div>
 );
 
